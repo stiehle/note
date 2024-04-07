@@ -102,6 +102,7 @@ function clearInput() {
   console.log("delete notesEntry");
   titleInputEl.value = "";
   contentInputEl.value = "";
+  showNotesList();
 }
 
 function selectedNoteEntry(e) {
